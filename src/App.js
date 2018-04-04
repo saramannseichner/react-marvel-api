@@ -59,7 +59,7 @@ class App extends Component {
     return (
       <div className ="app">
         <div className="side-bar">
-        <h1> marvel finder </h1>
+        <div><img src={'./img/marvel-finder.jpg'} alt="logo" className="logo"/></div>
         <h3>Track your favourite character!</h3>
         </div>
           <div className ="main">
