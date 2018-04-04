@@ -58,6 +58,10 @@ class App extends Component {
 
     return (
       <div className ="app">
+        <div className="side-bar">
+        <h1> marvel finder </h1>
+        <h3>Track your favourite character!</h3>
+        </div>
           <div className ="main">
             <div className ="search">
               <input
@@ -86,10 +90,10 @@ class App extends Component {
                   selected={character === this.state.selectedCharacter} />
               })}
             </GoogleMapReact>
-          </div>
+        </div>
       </div>
     );
-}
+  }
 }
 
 export default App;
