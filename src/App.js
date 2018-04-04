@@ -42,7 +42,6 @@ class App extends Component {
     })
   }
 
-
   render() {
     let center = {
       lat: 48.8566,
@@ -59,8 +58,8 @@ class App extends Component {
     return (
       <div className ="app">
         <div className="side-bar">
-        <div><img src={'./img/marvel-finder.jpg'} alt="logo" className="logo"/></div>
-        <h3>Track your favourite character!</h3>
+        <div><img src="marvel-finder.jpg"/></div>
+        <h3>Ever wonder where your favourite superheros are fighting crime?</h3>
         </div>
           <div className ="main">
             <div className ="search">
