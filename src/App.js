@@ -38,7 +38,7 @@ class App extends Component {
   handleSearch = (event) => {
     this.setState ({
       search: event.target.value,
-      characterss: this.state.allCharacters.filter((character) => new RegExp(event.target.value, "i").exec(character.name))
+      characters: this.state.allCharacters.filter((character) => new RegExp(event.target.value, "i").exec(character.name))
     })
   }
 
