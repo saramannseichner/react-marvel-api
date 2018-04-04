@@ -1,0 +1,17 @@
+.character {
+  flex-basis: calc(20% - 20px);
+  margin: 10px;
+  cursor: pointer;
+}
+.character:hover {
+  opacity: 0.8;
+}
+.charcter-picture {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.character-title {
+  margin-top: 10px;
+  font-weight: bold;
+}
